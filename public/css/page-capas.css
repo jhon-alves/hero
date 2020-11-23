@@ -1,0 +1,63 @@
+#page-details {
+  display: flex;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+.capa-container{
+  margin: 0 0 4rem;
+  background: #E6F7FB;
+  border: 1px solid #B3DAE2;
+  border-radius: 2rem;
+}
+
+.capa-container .leaflet-container {
+  border-radius: 20px 20px 0 0;
+}
+
+.capa-container footer {
+  background-color: #F5F8FA;
+  border-radius: 0 0 20px 20px;
+}
+
+#capaid01, #capaid02 ,#capaid03 ,#capaid04 {
+  background-size: cover;
+  width: 100%;
+  height: 28rem;
+  border-radius: 2rem;
+}
+
+#capaid01 {
+  background-image: url('../images/capa1.png');
+} 
+
+#capaid02 {
+  background-image: url('../images/capa2.png');
+}
+
+#capaid03 {
+  background-image: url('../images/capa3.png');
+} 
+
+#capaid04 {
+  background-image: url('../images/capa4.png');
+}
+
+.capa-container footer {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.capa-container footer a {
+  color: #0089A5;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.capa-container .leaflet-container {
+  border-bottom: 1px solid #DDE3F0;
+  border-radius: 2rem;
+}

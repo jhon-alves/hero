@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="../images/logo-one.png">
+  <title>Hero</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/animations.css">
+  <link rel="stylesheet" href="../css/page-capas.css">
+  <link rel="stylesheet" href="../css/forms.css">
+  <link rel="stylesheet" href="../css/sidebar.css">
+</head>
+<body>
+  <div id="page-details">
+    <aside class="animate-right sidebar">
+      <a href="index.html">
+        <img id="logo" src="../images/logo-one.png">
+      </a>
+
+      <footer>
+        <button onclick="history.back()">
+          <img src="../images/arrow-back.svg">
+        </button>
+      </footer>
+    </aside>
+
+    <main class="animate-appear with-sidebar">
+       <form action="">
+         <fieldset>
+           <legend>Capas semelhantes aos dados informados</legend>
+          <div class="capa-container">
+            <div id="capaid01"></div>
+
+            <footer>
+              <a href="page-capas-details.html" id="select-point">Selecionar capa</a>
+            </footer>
+          </div>
+
+          <div class="capa-container">
+            <div id="capaid02"></div>
+
+            <footer>
+              <a href="#" id="select-point">Selecionar capa</a>
+            </footer>
+          </div>
+
+          <div class="capa-container">
+            <div id="capaid03"></div>
+
+            <footer>
+              <a href="#" id="select-point">Selecionar capa</a>
+            </footer>
+          </div>
+
+          <div class="capa-container">
+            <div id="capaid04"></div>
+
+            <footer>
+              <a href="#" id="select-point">Selecionar capa</a>
+            </footer>
+          </div>
+        </fieldset>
+       </form>
+    </main>
+  </div>
+
+  <script src="./public/js/page-details.js"></script>
+</body>
+</html>
